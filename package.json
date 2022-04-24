@@ -1,0 +1,22 @@
+{
+  "name": "shippingproject",
+  "version": "1.0.0",
+  "description": "shipping project api template",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matheusgprlima/shippingApi.git"
+  },
+  "author": "matheus gomes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/matheusgprlima/shippingApi/issues"
+  },
+  "homepage": "https://github.com/matheusgprlima/shippingApi#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
