@@ -4,7 +4,8 @@
   "description": "shipping project api template",
   "main": "index.js",
   "scripts": {
-    "test": "npm run test"
+    "test": "npm run test",
+    "devStart": "nodemon src/server.js" 
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,8 @@
   "homepage": "https://github.com/matheusgprlima/shippingApi#readme",
   "dependencies": {
     "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.0"
   }
 }
