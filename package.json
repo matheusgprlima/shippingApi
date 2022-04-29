@@ -21,7 +21,22 @@
     "express": "^4.17.3"
   },
   "devDependencies": {
+    "@babel/core": "^7.17.9",
+    "@babel/preset-env": "^7.16.11",
+    "babel-jest": "^28.0.3",
     "dotenv": "^16.0.0",
     "jest": "^28.0.3"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "collectCoverageFrom": [
+      "<rootDir>/src/**/*.js"
+    ],
+    "transformIgnorePatterns": [
+      "<rootDir>/node_modules/"
+    ],
+    "transform": {
+      "^.+\\.[t|j]sx?$": "babel-jest"
+    }
   }
 }

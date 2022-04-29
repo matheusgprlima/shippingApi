@@ -1,4 +1,4 @@
-class User {
+export class User {
 
    constructor( name = null,age = null, email = null, cpf = null, address = null ) {
         

@@ -1,4 +1,4 @@
-class Purchase {
+export class Purchase {
     constructor( owner = null, product = null, value = null ) {
 
         this.owner = owner;
